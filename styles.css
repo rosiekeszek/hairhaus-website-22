@@ -16,3 +16,13 @@ body {
       width: 100%;
   }
 
+  .navlinks {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      list-style-type: none;
+  }
+
+  .business-name {
+      text-align: center;
+  }
