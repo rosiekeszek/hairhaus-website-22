@@ -1,3 +1,6 @@
+body {
+    /* background-color: black; */
+}
 
 .center {
     display: block;
@@ -6,3 +9,10 @@
     width: 80%;
     background-attachment: fixed;
   }
+
+  .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
+
