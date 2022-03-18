@@ -1,12 +1,14 @@
 body {
     /* background-color: black; */
+    margin: 0;
 }
 
-.center {
+ .center {
     display: block;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 100%;
     background-attachment: fixed;
   }
 
@@ -21,8 +23,12 @@ body {
       flex-direction: row;
       justify-content: space-evenly;
       list-style-type: none;
+      color: rgb(147, 120, 71);
+      margin-top: 5%;
   }
 
   .business-name {
       text-align: center;
+      color: rgb(147, 120, 71);
+      font-size: 130px;
   }
