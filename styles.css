@@ -1,16 +1,10 @@
-body {
-    /* background-color: black; */
-    margin: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,100&family=Staatliches&display=swap');
 
- .center {
-    display: block;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    background-attachment: fixed;
-  }
+body {
+    background: url('https://www.dropbox.com/s/3yp94w8gk1z5hmr/IMG_1339.jpg?raw=1') no-repeat;
+    margin: 0;
+    background-size: 100% auto;
+}
 
   .navbar {
       position: fixed;
@@ -19,16 +13,39 @@ body {
   }
 
   .navlinks {
+      font-family: 'Staatliches', cursive;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       list-style-type: none;
-      color: rgb(147, 120, 71);
+      color: white;
       margin-top: 5%;
+      font-size: 1.5em;
   }
 
   .business-name {
+      font-family: 'Staatliches', cursive;
       text-align: center;
-      color: rgb(147, 120, 71);
-      font-size: 130px;
+      color: white;
+      font-size: 9em;
   }
+
+  .est-date {
+      font-family: 'Staatliches', cursive;
+      text-align: center;
+      color: white;
+      margin-top: -8%;
+      font-size: 2em;
+  }
+
+  .call-now {
+      font-family: 'Staatliches', cursive;
+      text-align: center;
+      color: white;
+      font-size: 3.5em;
+  }
+
+  /* MEDIA QUERIES */
+
+  @media screen and (max-width: 768px) {styles}
+
