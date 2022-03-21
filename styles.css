@@ -23,6 +23,10 @@ body {
       font-size: 1.5em;
   }
 
+  li:hover {
+      letter-spacing: 0.1em;
+  }
+
   .business-name {
       font-family: 'Staatliches', cursive;
       text-align: center;
