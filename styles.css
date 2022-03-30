@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,100&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:ital,wght@0,900;1,100&family=Staatliches&display=swap');
 
 body {
-    background: url('https://www.dropbox.com/s/3yp94w8gk1z5hmr/IMG_1339.jpg?raw=1') no-repeat;
+    background: url('https://www.dropbox.com/s/oil2v3gozo9lyvn/IMG_1339%202.jpg?raw=1') no-repeat;
+    background-size: 100%;
     margin: 0;
-    background-size: 100% auto;
+    background-attachment: fixed;
 }
 
-  .navbar {
+  #navbar {
       position: fixed;
       top: 0;
       width: 100%;
   }
 
-  .navlinks {
+  #navlinks {
       font-family: 'Staatliches', cursive;
       display: flex;
       flex-direction: row;
@@ -27,14 +29,18 @@ body {
       letter-spacing: 0.1em;
   }
 
-  .business-name {
+  #bus-info {
+      padding-top: 3em; 
+  }
+
+  #business-name {
       font-family: 'Staatliches', cursive;
       text-align: center;
       color: white;
       font-size: 9em;
   }
 
-  .est-date {
+  #est-date {
       font-family: 'Staatliches', cursive;
       text-align: center;
       color: white;
@@ -42,13 +48,41 @@ body {
       font-size: 2em;
   }
 
-  .call-now {
+  #call-now {
       font-family: 'Staatliches', cursive;
       text-align: center;
       color: white;
       font-size: 3.5em;
   }
 
+  #footer {
+      position: fixed;
+      bottom: 0%;
+      width: 100%;
+      background-color: rgba(211,185,126,0.5);
+  }
+
+  #style-footer{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      padding-top: 0.25em;
+      padding-bottom: 0.5em;
+      font-size: 1.2em;
+  }
+
+  #location {
+      padding-left: 2em;
+  }
+ 
+  #copyright {
+      padding-right: 2em;
+      padding-top: 2.50em;
+  }
+
+  
   /* MEDIA QUERIES */
 
   @media screen and (max-width: 768px) {styles}
