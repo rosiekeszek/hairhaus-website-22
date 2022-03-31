@@ -7,7 +7,7 @@ Navbar ul and li added
 
 Business name and phone number centered on home/landing page.
 
-Footer is stuck to bottom but I would like to have a little more space between content and footer.
+Footer is stuck to the bottom after page content. 
 
 
 
