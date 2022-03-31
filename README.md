@@ -9,6 +9,8 @@ Business name and phone number centered on home/landing page.
 
 Footer is stuck to the bottom after page content. 
 
+About page added
+
 
 
 

@@ -83,6 +83,48 @@ body {
       padding-top: 2.50em;
   }
 
+  /* about page styles */
+
+ #about-div {
+     font-family: Montserrat, sans-serif;
+     color: white;
+     text-align: right;
+     margin: -90% 10% 70%;
+ } 
+
+ #about-h {
+     font-size: 3em;
+ }
+
+ #about-text {
+     font-size: 1.2em;
+ }
+
+ #client-img1 {
+     width: 15%;
+     border-radius: 50%;
+ }
+
+ #client-img2 {
+    width: 15%;
+    border-radius: 50%;
+}
+
+#client-img3 {
+    width: 15%;
+    border-radius: 50%;
+}
+
+#client-img4 {
+    width: 15%;
+    border-radius: 50%;
+}
+
+#client-img5 {
+    width: 15%;
+    border-radius: 50%;
+}
+
   /* MEDIA QUERIES */
 
   @media screen and (max-width: 768px) {styles}
