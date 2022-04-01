@@ -88,8 +88,11 @@ body {
  #about-div {
      font-family: Montserrat, sans-serif;
      color: white;
+     /* border: solid white; */
+     width: 30%;
+     margin: -55% 65% 30%;
      text-align: right;
-     margin: -90% 10% 70%;
+     padding: 15;
  } 
 
  #about-h {
@@ -98,31 +101,24 @@ body {
 
  #about-text {
      font-size: 1.2em;
- }
-
- #client-img1 {
-     width: 15%;
-     border-radius: 50%;
- }
-
- #client-img2 {
-    width: 15%;
+ } 
+ 
+img,figure {
+    width: 10em;
     border-radius: 50%;
+} 
+
+img:hover {
+    transform: scale(2.5);
 }
 
-#client-img3 {
-    width: 15%;
-    border-radius: 50%;
-}
+#img-gallery {
+    /* width: 50em; */
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10%;
 
-#client-img4 {
-    width: 15%;
-    border-radius: 50%;
-}
-
-#client-img5 {
-    width: 15%;
-    border-radius: 50%;
 }
 
   /* MEDIA QUERIES */
