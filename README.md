@@ -17,5 +17,7 @@ Google map added to contact page
 
 Commented out the Scheduling link in the navbar, scheduling will be on the Services page
 
+Services page added with placeholder for a scheduling app
+
 
 
