@@ -148,7 +148,8 @@ input {
 }
 
 #submit {
-    height: 2.5em;   
+    height: 2.5em;
+    background-color: gray;   
 }
 
 #map {

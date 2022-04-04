@@ -1,5 +1,5 @@
 # hairhaus-website-22
-New website for Hairhaus
+New website for Hairhaus: this is for demo only
 
 Background image is centered and fixed (does not scroll).
 
@@ -13,7 +13,9 @@ About page added
 
 Contact page added
 
-Add google map to contact page
+Google map added to contact page
+
+Commented out the Scheduling link in the navbar, scheduling will be on the Services page
 
 
 
