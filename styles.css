@@ -116,8 +116,45 @@ img:hover {
     display: flex;
     flex-wrap: wrap;
     margin-top: -10%;
-
 }
+
+/* contact page styles */
+
+#contact-form {
+    text-align: center;
+    margin-top: -15em;
+    margin-bottom: 20em;
+}
+
+input {
+    width: 30%;
+    border: none;
+}
+
+#name {
+    height: 2.5em;
+}
+#email {
+    height: 2.5em;
+}
+
+#subject {
+    height: 2.5em;
+}
+
+#message {
+    height: 13em;
+}
+
+#submit {
+    background-color: gray;
+    color: white;
+    height: 2.5em;
+}
+
+/* ::placeholder { */
+    
+/* } */
 
   /* MEDIA QUERIES */
 
