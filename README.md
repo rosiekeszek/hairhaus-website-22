@@ -11,6 +11,7 @@ Footer is stuck to the bottom after page content.
 
 About page added
 
+Contact page added
 
 
 

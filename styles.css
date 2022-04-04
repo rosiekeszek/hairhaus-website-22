@@ -129,6 +129,7 @@ img:hover {
 input {
     width: 30%;
     border: none;
+    background-color: rgb(160, 217, 211);
 }
 
 #name {
@@ -147,8 +148,6 @@ input {
 }
 
 #submit {
-    background-color: gray;
-    color: white;
     height: 2.5em;
 }
 
