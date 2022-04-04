@@ -13,5 +13,7 @@ About page added
 
 Contact page added
 
+Add google map to contact page
+
 
 

@@ -148,7 +148,12 @@ input {
 }
 
 #submit {
-    height: 2.5em;
+    height: 2.5em;   
+}
+
+#map {
+    text-align: center;
+    margin-top: -17em;
 }
 
 /* ::placeholder { */
