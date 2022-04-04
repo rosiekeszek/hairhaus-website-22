@@ -88,7 +88,6 @@ body {
  #about-div {
      font-family: Montserrat, sans-serif;
      color: white;
-     /* border: solid white; */
      width: 30%;
      margin: -55% 65% 30%;
      text-align: right;
@@ -113,7 +112,6 @@ img:hover {
 }
 
 #img-gallery {
-    /* width: 50em; */
     width: 60%;
     display: flex;
     flex-wrap: wrap;
