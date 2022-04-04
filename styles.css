@@ -157,10 +157,79 @@ input {
     margin-top: -17em;
 }
 
-/* ::placeholder { */
-    
-/* } */
+/* services page styles */
 
+#services-list {
+    font-family: 'Staatliches', cursive;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 10em;
+    margin-top: -12em;
+    margin-bottom: 10em;
+}
+
+#services-header {
+    font-size: 5em;
+}
+
+#cut-serv {
+    font-size: 2.5em;
+}
+
+#color-serv {
+    font-size: 2.5em;
+}
+
+#other-serv {
+    font-size: 2.5em;
+}
+
+li {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.75em;
+    list-style-type: none;
+}
+
+#scheduler-placeholder {
+    border: solid white;
+    width: 40%;
+    height: 25em;
+    margin: -60.5em 0 30em 5em;
+    background-color: white;
+}
+
+#sched-text {
+    font-family: Montserrat, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+#policies-div {
+    border: solid white;
+    width: 40%;
+    height: 20em;
+    margin: -25em 0 10em 5em;
+    background-color: white;
+}
+
+#policies-header {
+    font-family: 'Staatliches', cursive;
+    font-size: 2em;
+    color: rgb(160, 217, 211);
+    text-align: left;
+    margin-left: 1em;
+}
+
+#policies-text {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: rgb(160, 217, 211);
+}
   /* MEDIA QUERIES */
 
   @media screen and (max-width: 768px) {styles}
