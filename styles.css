@@ -3,7 +3,7 @@
 
 body {
     background: url('https://www.dropbox.com/s/oil2v3gozo9lyvn/IMG_1339%202.jpg?raw=1') no-repeat;
-    background-size: 100%;
+    background-size: cover;
     margin: 0;
     background-attachment: fixed;
 }
@@ -232,5 +232,8 @@ input {
 }
   /* MEDIA QUERIES */
 
-  @media screen and (max-width: 768px) {styles}
+  /* @media screen and (max-width: 768px) {styles} */
 
+  @media screen and (min-width: 360px) {styles}
+
+  
