@@ -234,7 +234,8 @@ input {
 
   /* @media screen and (max-width: 768px) {styles} */
 
-  mobile @media screen and (min-width: 360px) {
+  @media screen and (min-width: 360px) and (max-width: 460px) {
+
     body {
         background-position: center;
     }
@@ -271,6 +272,6 @@ input {
     }
 
 }
-  }
+  
 
     
