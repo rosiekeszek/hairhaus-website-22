@@ -244,9 +244,9 @@ input {
 }
   /* MEDIA QUERIES */
 
-  /* @media screen and (max-width: 768px) {styles} */
+  /* @media screen and (max-width: 600px) {styles} */
 
-  @media screen and (max-width: 460px) {
+  @media screen and (max-width: 600px) {
 
     body {
         background-position: center;
@@ -345,6 +345,13 @@ input {
         
     }
 
+}
+
+/* @media screen and (max-width: 962px) {styles} */
+
+@media screen and (min-width: 601px) and (max-width: 962px) {
+
+    
 }
   
 
