@@ -19,5 +19,7 @@ Commented out the Scheduling link in the navbar, scheduling will be on the Servi
 
 Services page added with placeholder for a scheduling app
 
+max 460 media query for Index and About pages done. Issue with gap on right of footer on About only. 
 
+max 460 media query for Services page done.
 

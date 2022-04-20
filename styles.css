@@ -285,6 +285,34 @@ input {
         text-align: center;
     }
 
+    /* services pg */
+
+    #policies-div {
+        width: 90%;
+        margin: 1em;
+    }
+
+    #scheduler-placeholder {
+        width: 90%;
+        margin: 1em;
+    }
+
+    #services-list {
+        width: 90%;
+        text-align: center;
+        margin-left: 1em;
+        margin-bottom: 2em;
+    }
+
+    #services-header {
+        font-size: 4em;
+        margin-bottom: -0.5em;
+    }
+
+    #serv-li {
+        margin-left: -1.5em;
+    }
+
 }
   
 
