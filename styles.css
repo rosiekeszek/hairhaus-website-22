@@ -234,7 +234,7 @@ input {
 
   /* @media screen and (max-width: 768px) {styles} */
 
-  @media screen and (min-width: 360px) and (max-width: 460px) {
+  @media screen and (max-width: 460px) {
 
     body {
         background-position: center;
@@ -269,6 +269,20 @@ input {
 
     #copyright {
         margin-left: 1.5em;
+    }
+    /* about pg */
+
+    #img-gallery {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 60em;
+    }
+
+    #about-div {
+        margin: 2em;
+        width: 90%;
+        text-align: center;
     }
 
 }
