@@ -25,3 +25,5 @@ max 460 media query for Services page done.
 
 Added margins left and right to ABOUT div and resolved the footer gap.
 
+Contact page media query: issue with google map resize
+
