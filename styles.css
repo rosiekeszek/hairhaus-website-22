@@ -62,7 +62,7 @@ body {
   #footer {
       bottom: 0%;
       width: 100%;
-      background-color: rgba(160, 217, 211, 0.45)
+      background-color: rgba(160, 217, 211, 0.45);
   }
 
   #style-footer{
@@ -129,7 +129,7 @@ img:hover {
 }
 
 input {
-    width: 30%;
+    width: 40%;
     border: none;
     background-color: rgb(160, 217, 211);
 }
@@ -154,22 +154,19 @@ input {
     background-color: gray;   
 }
 
-#map {
-    overflow: hidden;
-    padding-bottom: 0em;
+.google-maps {
     position: relative;
-    height: 90%;
-    margin-left: 15em;
-    margin-right: 0em;
-}
-
-#map iframe{
-    left:0;
-    top:0;
-    height:70% !important;
-    width:80% !important;
-    position:absolute;
-}
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+  }
+  .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
 
 /* services page styles */
 
@@ -246,9 +243,52 @@ input {
 }
   /* MEDIA QUERIES */
 
-  /* @media screen and (max-width: 600px) {styles} */
+   /* @media  screen and (min-width: 320px) and (max-width: 489px) {
 
-  @media screen and (max-width: 600px) {
+    body {
+        background-position: center;
+    }
+
+    #business-name {
+        font-size: 4.5em;
+        margin-left: 1.5em;
+    }
+
+    #est-date {
+        margin-right: -8.5em;
+    }
+
+    #call-now {
+        font-size: 2.25em;
+        margin-right: -7.25em;
+    }
+
+    #footer {
+         /* margin-left: 7em;  
+         margin-bottom:-3em; */
+         /* margin: 0;
+         padding: 0; 
+         width: 175%; 
+     }
+
+    #style-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    #location {
+        margin-left: -4.75em; 
+        margin-bottom: 1em;
+    }
+
+    #copyright {
+        margin-left: 1.5em; 
+    }
+      
+  }   */ 
+
+  @media screen and /*(min-width: 490px) and*/ (max-width: 600px) {
 
     body {
         background-position: center;
@@ -345,8 +385,6 @@ input {
     }
 
 }
-
-/* @media screen and (max-width: 962px) {styles} */
 
 @media screen and (min-width: 601px) and (max-width: 962px) {
 
