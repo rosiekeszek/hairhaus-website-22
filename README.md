@@ -27,3 +27,4 @@ Added margins left and right to ABOUT div and resolved the footer gap.
 
 Contact page media query: issue with google map resize
 
+Changes to media queries: one of the big issues with the max-width: 480 is that the business-name header was too large. index file is ok at all sizes except footer should be stuck to bottom (there's a small gap).
